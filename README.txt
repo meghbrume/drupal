@@ -88,3 +88,4 @@ More about developing:
    http://api.drupal.org/api/drupal/7
 ** new configuration added
 ** new configuration added twice
+***adding new line to test
