@@ -2,9 +2,13 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/
+    destination: /var/www/html/drupal
 hooks:
-  BeforeInstall:
+  AfterInstall:
+    - location: scripts/change_permissions.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
     - location: scripts/start_server
       timeout: 300
       runas: root

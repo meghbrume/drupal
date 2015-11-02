@@ -208,7 +208,7 @@ $databases = array (
       'database' => 'drupal',
       'username' => 'druser',
       'password' => 'password',
-      'host' => 'drupal.cxm92drgsble.us-west-2.rds.amazonaws.com',
+      'host' => 'mydb.cxm92drgsble.us-west-2.rds.amazonaws.com',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
@@ -246,7 +246,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'hI9iw8FdlkW-bS6AzCj8bZrvFDQP-EIi4MBwpVeAaJo';
+$drupal_hash_salt = 'DQOpHTB5ddFpEf8D-At-2zhc3s9QEP6A-kb4_d1dEuE';
 
 /**
  * Base URL (optional).
