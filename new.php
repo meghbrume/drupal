@@ -1,2 +1,2 @@
 <?php
-echo "hii this i snew file"
+echo "hii this i snew file";
