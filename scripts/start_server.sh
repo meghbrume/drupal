@@ -1,2 +1,2 @@
-#!/bin/basj
+#!/bin/bash
 etc/init.d/httpd start
