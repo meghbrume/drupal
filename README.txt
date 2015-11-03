@@ -89,3 +89,4 @@ More about developing:
 ** new configuration added
 ** new configuration added twice
 ***adding new line to test
+** adding another line 
